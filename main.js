@@ -13,7 +13,7 @@ containerFaq.forEach(faq => {
             if (item !== faq) {
                 item.removeAttribute('open');
                 const img = item.querySelector('.img-btn');
-                if (img) img.src = "/assets/images/icon-plus.svg"; 
+                if (img) img.src = "./assets/images/icon-plus.svg"; 
             }
         });
 
@@ -21,8 +21,8 @@ containerFaq.forEach(faq => {
         const img = faq.querySelector('.img-btn');
         if (img) {
             img.src = faq.getAttribute('open') === null 
-                ? "/assets/images/icon-minus.svg" 
-                : "/assets/images/icon-plus.svg";
+                ? "./assets/images/icon-minus.svg" 
+                : "./assets/images/icon-plus.svg";
         }
     });
 });
