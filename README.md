@@ -54,9 +54,9 @@ Your users should be able to:
 
 ### Screenshots
 
-![desktop]()
+![desktop](https://github.com/dovelm/FEM-faq-accordion-main/blob/main/screenshots/desktop.png)
 
-![mobile]()
+![mobile](https://github.com/dovelm/FEM-faq-accordion-main/blob/main/screenshots/mobile.PNG)
 
 
 ### Links
